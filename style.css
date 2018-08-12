@@ -30,7 +30,6 @@ a:hover {
 .header {
     height: 50px;
     min-width: 940px;
-    padding-top: 5px;
     width: 100%;
 }
 
@@ -48,7 +47,33 @@ a:hover {
     opacity: 0.5;
     width: 18px;
 }
+.app-img:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+.sign-in {
+	display: inline-block;
+    border: none;
+    padding: 5px 10px;
+    margin: 0;
+    border-radius: 2px;
+    font-weight: bold;
+    text-decoration: none;
+    background: #4285f4;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    transition: background 250ms ease-in-out, 
+                transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
 
+.sign-in:hover {
+	cursor: default;
+}
 .container {
     margin: auto;
     width: 50%;
