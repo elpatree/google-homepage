@@ -1,0 +1,138 @@
+body {
+	font-family: arial,sans-serif;
+}
+
+img {
+	height:112px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+	text-align:center;
+	padding-top: 30px;
+}
+
+p a {
+	color: blue;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration:underline;
+}
+
+.header {
+    height: 50px;
+    min-width: 940px;
+    padding-top: 5px;
+    width: 100%;
+}
+
+.body-header > li {
+	display: inline-block;
+}
+
+.header-right {
+	float: right;
+	padding-right: 30px;
+}
+
+.app-img {
+	height: 18px;
+    opacity: 0.5;
+    width: 18px;
+}
+
+.container {
+    margin: auto;
+    width: 50%;
+    padding: 200px;
+}
+
+#search-box {
+	margin-top: 40px;
+	box-shadow: 2px 1px 1px 1px rgba(0,0,0,0.2);
+	font-size: 16px;
+	font-weight: bold;
+	border:none;
+	padding-left:15px;
+	width: 600px;
+	height: 40px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    outline: none;
+}
+#search-box:hover {
+	margin-top: 40px;
+	box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.2);
+}
+
+.mic {
+    height: 20px;
+    margin-left: 620px;
+    margin-top: -38px;
+    position: absolute;
+    width: 14px;
+}
+
+#buttons {
+	display: flex;
+  	justify-content: center;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.google-button, .lucky-button {
+  background-color: #eff0f2;
+  border: none;
+  color: #7b7c7c;
+  font-size: 1em;
+  font-weight: bold;
+  padding: 10px 16px;
+  text-align: center;
+  margin-right: 15px;
+}
+
+.google-button:hover, .lucky-button:hover {
+    border: 1px solid rgba(0,0,0,0.2);
+}
+
+.footer {
+	background-color: #eff0f2;
+ 	border-top: 0.5px solid #e0e1e5;
+ 	bottom: 0;
+  	height: 50px;
+  	min-width: 940px;
+  	position: absolute;
+ 	width: 99%;
+}
+
+#footer-left {
+	float: left;
+	margin-top:15px;
+}
+#footer-right {
+	float: right;
+	margin-top:15px;
+}
+
+#footer-left a {
+	padding: 10px;
+}
+#footer-right a {
+	padding: 10px;
+}
+
+
+
+
+
+
